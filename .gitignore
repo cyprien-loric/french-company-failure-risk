@@ -1,0 +1,32 @@
+# --- Données (trop lourdes, non versionnées) ---
+Data/raw/
+Data/processed/
+*.parquet
+
+# --- Environnement virtuel ---
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Modèles entraînés (lourds) ---
+models/*.pkl
+models/*.joblib
+models/*.json
+models/*.bin
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/
